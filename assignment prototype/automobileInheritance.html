@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    function product() {
+    this.wheels = "4";
+    this.brand = "mercedes";
+    this.seller = "Flipkart";
+    this.door = "4";
+    this.roof = "closed";
+}
+
+let p1 = new product();
+console.log(p1);
+
+const product2 = {
+    wheels: "4",
+    brand: "mercedes",
+    seller: "Flipkart",
+    door: "4",
+    roof: "closed",
+};
+
+let auto1 = Object.create(product2);
+console.log(auto1);
+</script>
